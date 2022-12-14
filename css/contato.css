@@ -5,10 +5,10 @@
 
 .contato-container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 120px 20px 60px;
   gap: 144px;
   position: relative;
 }
@@ -32,15 +32,35 @@
 }
 
 .contato-lista {
-  color: fff;
+  color: #fff;
   font-size: 2rem;
   line-height: 1.44;
   margin-top: 150px;
 }
 
+.footer-copy {
+  display: block;
+  color: #a3a3a3;
+  margin-top: 120px;
+}
+
 @media (max-width: 1000px) {
   .contato-container {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contato-container {
     grid-template-columns: 1fr;
-    gap: 0px;
+  }
+  .contato-lista {
+    margin-top: 60px;
+  }
+  .contato-texto {
+    margin-top: 60px;
+  }
+  .footer-copy {
+    margin-top: 60px;
   }
 }
