@@ -27,7 +27,7 @@
   font-size: 1.5rem;
   line-height: 1.44;
   margin-top: 150px;
-
+  word-wrap: break-word;
   width: 30ch;
 }
 
@@ -56,9 +56,11 @@
   }
   .contato-lista {
     margin-top: 60px;
+    font-size: 1.5rem;
   }
   .contato-texto {
     margin-top: 60px;
+    font-size: 1rem;
   }
   .footer-copy {
     margin-top: 60px;
